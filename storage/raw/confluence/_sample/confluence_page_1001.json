@@ -1,0 +1,10 @@
+{
+  "id": "1001",
+  "title": "결제 서비스 504 타임아웃 장애 분석 및 대책",
+  "space_id": "PAY",
+  "status": "current",
+  "author_id": "user-backend-lead",
+  "created_at": "2026-10-20T14:30:00Z",
+  "version_number": 2,
+  "body_storage_value": "\n                <h1>장애 현황</h1>\n                <p>2026년 10월 20일 오후 2시 결제 모듈에서 PG사 통신 지연으로 인해 504 Gateway Timeout 발생.</p>\n                <h2>근본 원인</h2>\n                <p>커넥션 풀 고갈(HikariCP max-pool-size: 10 기본값 초과). 동시 결제 트래픽 500 TPS 인입 시 락 경합 발생.</p>\n                <h2>조치 사항</h2>\n                <p>1. 임시 조치: 커넥션 풀 30으로 증설 및 타임아웃 3초로 단축.<br/>2. 근본 해결 필요: 비동기 큐(Kafka) 기반 결제 파이프라인 전환 필요.</p>\n                "
+}

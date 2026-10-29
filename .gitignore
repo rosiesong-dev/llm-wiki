@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 로컬 환경변수 (비밀값은 Windows 자격 증명 관리자에 저장하지만, .env는 PC별 설정이므로 제외)
+.env
+
+# RAG 벡터 인덱스 - 'python main.py index'로 언제든 다시 생성 (임베딩 모델마다 달라짐)
+storage/index/
+
+# 수집 원본·위키·티켓은 업무 데이터이므로 커밋하지 않음 (mock 샘플만 예외)
+storage/*
+!storage/raw/
+storage/raw/*
+!storage/raw/confluence/
+storage/raw/confluence/*
+!storage/raw/confluence/_sample/
