@@ -1,4 +1,4 @@
-# 📚 llm-wiki : 사내 LLM-Wiki 및 티켓 발행 자동화 시스템 (Python)
+# 📚 사내 llm-wiki: Confluence/Slack 회의 내용 수집·분석 및 Jira Ticket 생성
 
 > **팀의 분산된 업무 지식과 이슈를 하나로 통합하고, Gemini AI or Gemma AI 지식 증강(RAG)을 통해 티켓 발행까지 원스톱으로 자동화하는 Python 기반 엔터프라이즈 지식 시스템**
 
