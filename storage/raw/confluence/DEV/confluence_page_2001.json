@@ -1,0 +1,10 @@
+{
+  "id": "2001",
+  "title": "2026-10-26 결제 큐 아키텍처 회의록",
+  "space_id": "DEV",
+  "status": "current",
+  "author_id": "user",
+  "created_at": "2026-10-26T10:00:00Z",
+  "version_number": 1,
+  "body_storage_value": "<h1>회의 개요</h1><p>일시: 2026년 10월 26일 오전 10시<br/>참석자: 홍길동, 김철수<br/>안건: 결제 대기열을 Kafka와 RabbitMQ 중 무엇으로 구성할지 결정</p><h2>결정 사항</h2><p>- 결제 이벤트 큐는 Kafka로 구성한다<br/>- 11월 1주차까지 PoC를 완료한다</p><h2>액션 아이템</h2><table><tr><th>담당</th><th>할 일</th><th>기한</th></tr><tr><td>홍길동</td><td>Kafka 토픽·파티션 설계</td><td>10/30</td></tr><tr><td>김철수</td><td>결제 컨슈머 PoC 개발</td><td>11/06</td></tr></table>"
+}

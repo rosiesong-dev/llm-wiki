@@ -1,0 +1,37 @@
+{
+  "channel": {
+    "id": "C0XXXXXXXXX",
+    "name": "dev"
+  },
+  "date": "2026-10-27",
+  "fetched_at": "2026-10-27T18:00:00+09:00",
+  "message_count": 2,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U0XXXXXXX01",
+      "_user_name": "홍길동",
+      "ts": "1761530400.000100",
+      "text": "Kafka 토픽 설계 초안 올렸습니다. 파티션은 결제 ID 기준 12개로 잡았어요.",
+      "thread_ts": "1761530400.000100",
+      "reply_count": 1,
+      "_replies": [
+        {
+          "type": "message",
+          "user": "U0XXXXXXX02",
+          "_user_name": "김철수",
+          "ts": "1761531000.000200",
+          "thread_ts": "1761530400.000100",
+          "text": "확인했습니다. 컨슈머 PoC는 이 설계 기준으로 진행할게요."
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "user": "U0XXXXXXX02",
+      "_user_name": "김철수",
+      "ts": "1761534000.000300",
+      "text": "PoC용 Jira 티켓 DEV-2 발행했습니다."
+    }
+  ]
+}
