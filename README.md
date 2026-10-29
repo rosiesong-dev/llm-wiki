@@ -397,3 +397,7 @@ class TicketProvider(ABC):
         pass
 ```
 새로운 프로바이더는 `llm_wiki/ticket/providers/`에 위 클래스를 상속받아 구현하기만 하면 즉시 연동됩니다.
+
+### 🔄 업무 자동화
+Confluence와 Slack의 회의 내용을 주기적으로 수집·분석하고, LLM을 활용해 Action Item을 추출한 뒤 Jira Ticket을 자동으로 생성합니다.  
+향후 **crontab 기반 스케줄링**을 적용하여 전체 업무 프로세스를 자동화할 예정입니다.
